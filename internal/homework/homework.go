@@ -8,7 +8,7 @@ import "fmt"
 // "Привет, {name}! Добро пожаловать в Go."
 func BuildGreeting(name string) string {
 	// TODO: реализуйте функцию через fmt.Sprintf.
-	return fmt.Sprintf("Hello, %s! Добро пожаловать в Go.", name)
+	return fmt.Sprintf("Привет, %s! Добро пожаловать в Go.", name)
 }
 
 // BuildCourseWelcome возвращает название курса.
